@@ -34,7 +34,7 @@ export default function Testimonials() {
             >
               {/* Large quote */}
               <span className="absolute top-4 right-6 font-serif text-7xl text-charcoal-100 group-hover:text-gold-100 leading-none select-none transition-colors duration-300">
-                "
+                &ldquo;
               </span>
               <div className="text-gold-400 text-sm tracking-widest mb-5">
                 {"★".repeat(t.rating)}

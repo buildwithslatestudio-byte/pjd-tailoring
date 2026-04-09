@@ -35,7 +35,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ["Georgia", "Cambria", "Times New Roman", "serif"],
+        serif: ["var(--font-cormorant)", "Georgia", "serif"],
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
       },
       animation: {
         "fade-up": "fadeUp 0.8s cubic-bezier(0.16,1,0.3,1) forwards",
