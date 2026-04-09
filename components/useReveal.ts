@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useRef, RefObject } from "react";
 
-export function useReveal<T extends HTMLElement = HTMLElement>(): RefObject<T> {
-  const ref = useRef<T>(null);
+export function useReveal<T extends HTMLElement = HTMLElement>(): RefObject<T | null> {
+  const ref = useRef<T | null>(null);
 
   useEffect(() => {
     const el = ref.current;
